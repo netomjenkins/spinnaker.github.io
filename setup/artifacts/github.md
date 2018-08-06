@@ -52,6 +52,12 @@ hal config artifact github account add $ARTIFACT_ACCOUNT_NAME \
     --token-file $TOKEN_FILE
 ```
 
+And, as always, apply your configuration changes:
+
+```bash
+hal deploy apply
+```
+
 There are more options described
 [here](/reference/halyard/commands#hal-config-artifact-github-account-edit)
 if you need more control over your configuration.
